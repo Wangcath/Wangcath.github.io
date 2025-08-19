@@ -1,18 +1,15 @@
-# 站点基本信息
 title: "Wang Yunge"
-name: "Wang Yunge"
-description: "个人主页与写作空间"
-url: "https://wangcath.github.io"  # 你的网站地址
-baseurl: ""  # GitHub Pages 用空字符串
+email: "231098096@smail.nju.edu.cn"
+description: >-
+  个人主页与写作空间
+baseurl: "" # GitHub Pages 项目级建议空字符串
+url: "https://wangcath.github.io"
 
-# 使用 Minimal Mistakes 主题
 remote_theme: "mmistakes/minimal-mistakes"
 
-# 插件（GitHub Pages 需要用这些）
 plugins:
   - jekyll-include-cache
 
-# 导航栏设置（只保留 about、cv、writing）
 navigation:
   - title: "About"
     url: /about/
@@ -21,9 +18,9 @@ navigation:
   - title: "Writing"
     url: /writing/
 
-# 作者信息（显示在页面底部）
 author:
   name: "Wang Yunge"
+  avatar: "/assets/images/avatar.jpg" # 头像（可选，可自行替换图片）
   bio: "欢迎来到我的个人主页 🎉"
   location: "Nanjing University"
   links:
@@ -34,7 +31,6 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:231098096@smail.nju.edu.cn"
 
-# 侧边栏设置（可选）
 defaults:
   - scope:
       path: ""
