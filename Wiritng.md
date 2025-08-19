@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: posts
 title: "Writing"
 permalink: /writing/
+author_profile: true
 ---
 
-{% include archive.html %}
+这里会自动显示你的所有文章归档。
