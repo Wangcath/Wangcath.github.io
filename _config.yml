@@ -12,18 +12,14 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
-# 导航栏设置
-nav:
-  - title: "Home"
-    url: /
-  - title: "Bio"
+# 导航栏设置（只保留 about、cv、writing）
+navigation:
+  - title: "About"
     url: /about/
   - title: "CV"
     url: /cv/
   - title: "Writing"
     url: /writing/
-  - title: "Learning"
-    url: /learning/
 
 # 作者信息（显示在页面底部）
 author:
