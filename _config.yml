@@ -2,3 +2,11 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+
+nav:
+  - title: "Bio"
+    url: /about/
+  - title: "CV"
+    url: /cv/
+  - title: "Writing"
+    url: /writing/
