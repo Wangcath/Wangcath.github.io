@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 可以根据需要添加 CSS 样式 -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include navbar.html %}   <!-- 导航栏引用 -->
+  
+  <main>
+    {{ content }}             <!-- 主内容输出 -->
+  </main>
+</body>
+</html>
