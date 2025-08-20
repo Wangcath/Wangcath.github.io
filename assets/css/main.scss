@@ -380,6 +380,88 @@ textarea:focus {
   outline-offset: 2px;
 }
 
+/* Custom styles for title and excerpt backgrounds and font sizes */
+/* Light orange background for the page title */
+.page__title,
+.page__inner-wrap .page__title,
+.masthead .site-title,
+.page__hero .page__title,
+.archive__title {
+  background: #FFE5B4; /* Light orange */
+  color: #2c3e50 !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.75rem !important; /* 50% of original size */
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-shadow: none !important;
+}
+
+/* Light green background for the excerpt */
+.page__lead,
+.page__excerpt,
+.archive .page__excerpt,
+.page__hero-caption,
+.page__hero .page__excerpt,
+.archive__excerpt {
+  background: #E8F5E8; /* Light green */
+  color: #2c3e50 !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.7rem !important; /* 50% of original size */
+  line-height: 1.4;
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+/* Ensure the site title in masthead also gets the styling */
+.masthead .site-title {
+  background: #FFE5B4 !important; /* Light orange */
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.75rem !important; /* 50% of original size */
+}
+
+/* Target the hero section title and greeting specifically */
+.page__hero h1 {
+  background: #FFE5B4; /* Light orange */
+  color: #2c3e50 !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem !important; /* 50% of original size - was 2rem */
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .page__title,
+  .page__inner-wrap .page__title,
+  .masthead .site-title,
+  .page__hero .page__title,
+  .archive__title {
+    font-size: 0.625rem !important; /* 50% of mobile original size */
+  }
+  
+  .page__lead,
+  .page__excerpt,
+  .page__hero-caption,
+  .page__hero .page__excerpt,
+  .archive__excerpt {
+    font-size: 0.5rem !important; /* 50% of mobile original size */
+  }
+  
+  .page__hero h1 {
+    font-size: 0.875rem !important; /* 50% of mobile original size */
+  }
+  
+  .masthead .site-title {
+    font-size: 0.625rem !important; /* 50% of mobile original size */
+  }
+}
+
 /* Print styles */
 @media print {
   .sidebar,
