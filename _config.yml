@@ -38,7 +38,7 @@ navigation:
 author:
   name: "王芸阁"
   avatar: "/assets/images/avatar.jpg"
-  bio: "行到水穷处，坐看云起时 💡<br>欢迎来到我的数字自留地 🌟"
+  bio: "行到水穷处，坐看云起时 💡"
   location: "南京，中国"
   links:
     - label: "GitHub"
@@ -108,6 +108,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
