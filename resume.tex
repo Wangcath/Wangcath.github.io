@@ -1,0 +1,112 @@
+\documentclass[a4paper,11pt]{ctexart}
+\usepackage[left=2cm, right=2cm, top=2.2cm, bottom=2.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+
+% 个人信息
+\newcommand{\Name}{王芸阁}
+\newcommand{\EnglishName}{Wang Yunge}
+\newcommand{\Mobile}{(+86)188-5131-8299}
+\newcommand{\Email}{231098096@smail.nju.edu.cn}
+\newcommand{\WeChat}{wyg18851318299}
+\newcommand{\Photo}{photo.jpg}
+
+\begin{document}
+% 头部：姓名与照片
+\begin{minipage}[c]{0.72\textwidth}
+    \vspace*{2mm}
+    {\LARGE\bfseries \Name} \hfill \texttt{\EnglishName} \\
+    \vspace{1mm}
+    \hrule
+    \vspace{1mm}
+    手机：\Mobile \quad 邮箱：\href{mailto:\Email}{\Email} \\
+    微信号：\WeChat
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.22\textwidth}
+    \raggedleft
+    \includegraphics[width=3.1cm,keepaspectratio]{\Photo}
+\end{minipage}
+
+\vspace{2mm}
+
+% 分割线
+\rule{\textwidth}{0.6pt}
+
+% 教育经历
+\section*{教育经历}
+\begin{tabular}{p{3.2cm} p{9.2cm} p{3.2cm}}
+2023.09-- & 南京大学，经济学（拔尖计划）本科在读，GPA: 4.41 & \textbf{本科在读} \\
+2020.09--2023.06 & 江苏省南通中学 & \textbf{高中} \\
+\end{tabular}
+
+\vspace{1mm}
+% 实习和科研经历
+\section*{实习和科研经历}
+\begin{tabular}{p{3.2cm} p{9.2cm} p{3.2cm}}
+2025.07--2025.09 & 兴业证券经济与金融研究院（上海），化工组实习生 &
+2025.03--2025.06 & 南京大学经济学系科研助理 & \textbf{科研助理} \\
+ & 指导教师：\href{https://nubs.nju.edu.cn/shp%C2%A0/list.htm}{沈浩鹏}老师 & \\
+ & 主要进行劳动力市场与中国宏观经济周期方向的数据处理和实证研究 & \\
+2024.07--2024.08 & 南通大学商学院（管理学院），综合行政岗 & \\
+ & 参与“长期护理保险赋能养老保险制度发展”横向课题等 & \\
+\end{tabular}
+
+\vspace{1mm}
+% 科研和商赛项目
+\section*{科研和商赛项目}
+\begin{itemize}[leftmargin=*,itemsep=0.5em]
+    \item \textbf{物流通道与城市减排：中欧班列的政策效应与机制检验}（第一作者，论文，2025.04-2025.05）\\
+    - 使用多期DID方法量化中欧班列对城市污染的影响并揭示作用机制\\
+    - 获南京大学第三十六届“银星杯”本科生学术论文竞赛二等奖
+    \item \textbf{信息不对称与举报: 基于柠檬市场理论的吹哨人、调查记者与政商博弈分析}（作者，论文，2024.12）\\
+    - 通过构建决策树，分析吹哨人行为，为政策制定提供理论支持
+    \item \textbf{捅破天，扎到根，不造车——从华为智能汽车解决方案业务看华为to B端模式}（报告，2024.12）\\
+    - 通过华为年报和数据解读华为车BU运营逻辑并分析toB端运作方式
+    \item \textbf{985大学科研投入、产出转化与区域经济创新的关联性研究}（合作者，报告，2023.10-2023.12）\\
+    - 负责对地区创新数据进行PCA主成分分析、回归模型建立并展示汇报
+    \item \textbf{“乐福的奇幻冒险记”——徐福记品牌年轻化策略}（合作者，徐福记市场营销方案，2025.03-2025.04）\\
+    - 2025雀巢CE0挑战赛TOP 100案例
+    \item \textbf{恒大为何没能“恒大”？从风险管理角度剖析恒大集团债务危机：基于COSO-ERM 2017}（合作者，论文）\\
+    - 主要负责撰写恒大规模扩张战略分析和政策风险等部分
+\end{itemize}
+
+% 专业技能
+\section*{专业技能}
+\begin{itemize}[leftmargin=*,itemsep=0.3em]
+    \item 熟悉 R / Stata / SQL / Python / LaTeX / Markdown
+    \item 具备Python大数据经济学分析能力，了解机器学习、股票大数据分析
+    \item 熟练使用Jupyter Notebook, R Studio, GitHub, Excalidraw, Obsidian等工具和传统办公软件
+    \item 英语六级675分，英文基础扎实
+\end{itemize}
+
+% 在校活动
+\section*{在校活动}
+\begin{itemize}[leftmargin=*,itemsep=0.3em]
+    \item 南京大学网球协会管理组成员
+    \item 参与山海支教行动，线上支教一学期
+    \item 担任班级宣传委员，维护班级公众号
+    \item 作为组长组织南京大学鼓楼校区无障碍设施调查
+    \item 参与两项校级重点立项社会实践项目
+    \item 南京大学南播玩工作室综合企划部主管
+\end{itemize}
+
+% 荣誉奖励
+\section*{荣誉奖励}
+\begin{itemize}[leftmargin=*,itemsep=0.3em]
+    \item 南京大学2024年度网球单打排位赛女子组第五名
+    \item 第十五届全国中学生创新作文大赛全国特等奖
+    \item 蓝桥杯个人赛国家级二等奖
+    \item 南京大学第三十六届“银星杯”本科生学术论文竞赛二等奖
+    \item “南纤博爱”奖学金
+    \item 2025雀巢CE0挑战赛TOP 100
+\end{itemize}
+
+\vspace{2mm}
+\begin{center}
+    \textcolor{gray}{\footnotesize 简历更新时间：2025年8月}
+\end{center}
+\end{document}
