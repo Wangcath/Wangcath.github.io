@@ -20,7 +20,7 @@ navigation:
 
 author:
   name: "Wang Yunge"
-  avatar: "/assets/images/avatar.svg" # 头像（可自行替换图片）
+  avatar: "/assets/images/avatar.jpg" # 头像（可自行替换图片）
   bio: "欢迎来到我的个人主页 🎉"
   location: "Nanjing University"
   links:
@@ -41,3 +41,4 @@ defaults:
       read_time: true
       comments: false
       share: true
+
