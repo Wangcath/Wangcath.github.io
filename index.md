@@ -3,7 +3,7 @@ layout: home
 title: "欢迎来到王芸阁的个人主页"
 author_profile: true
 header:
-  overlay_color: "#667eea"
+  overlay_color: "#78aaff"
   overlay_filter: "0.5"
 excerpt: "追求要比盲目并且无能的快乐要强"
 ---
