@@ -18,11 +18,11 @@ excerpt: "通过将自我与文本相匹配，你创造了一个自我（《重�
 这是我用 **Jekyll** + **GitHub Pages** 搭建的个人网站，采用了现代化的设计理念：
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-  <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 1.5rem; border-radius: 12px; text-align: center;">
+  <div style="background: linear-gradient(135deg, #E67E22, #F39C12); color: white; padding: 1.5rem; border-radius: 12px; text-align: center;">
     <h3>📚 学术分享</h3>
     <p>分享我的学习心得和研究思考</p>
   </div>
-  <div style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 1.5rem; border-radius: 12px; text-align: center;">
+  <div style="background: linear-gradient(135deg, #2ECC71, #27AE60); color: white; padding: 1.5rem; border-radius: 12px; text-align: center;">
     <h3>✍️ 随笔写作</h3>
     <p>记录生活中的感悟和对世界的观察</p>
   </div>
@@ -46,8 +46,9 @@ excerpt: "通过将自我与文本相匹配，你创造了一个自我（《重�
   <h3>🚀 开始探索吧！</h3>
   <p>点击导航栏中的链接，了解更多关于我的信息，或者浏览我的文章和想法。</p>
   <div style="margin-top: 1rem;">
-    <a href="/about/" style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 0.75rem 1.5rem; margin: 0.5rem; border-radius: 25px; text-decoration: none; display: inline-block; font-weight: 500;">关于我</a>
-    <a href="/writing/" style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 0.75rem 1.5rem; margin: 0.5rem; border-radius: 25px; text-decoration: none; display: inline-block; font-weight: 500;">我的文章</a>
+    <a href="/about/" style="background: linear-gradient(135deg, #E67E22, #F39C12); color: white; padding: 0.75rem 1.5rem; margin: 0.5rem; border-radius: 25px; text-decoration: none; display: inline-block; font-weight: 500;">关于我</a>
+    <a href="/cv/" style="background: linear-gradient(135deg, #2ECC71, #27AE60); color: white; padding: 0.75rem 1.5rem; margin: 0.5rem; border-radius: 25px; text-decoration: none; display: inline-block; font-weight: 500;">📄 简历</a>
+    <a href="/writing/" style="background: linear-gradient(135deg, #3498DB, #2980B9); color: white; padding: 0.75rem 1.5rem; margin: 0.5rem; border-radius: 25px; text-decoration: none; display: inline-block; font-weight: 500;">我的文章</a>
   </div>
 </div>
 
