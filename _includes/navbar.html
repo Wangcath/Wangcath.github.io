@@ -1,8 +1,44 @@
-<nav>
-  <ul style="list-style: none; display: flex; gap: 1em; padding: 0;">
-    <li><a href="{{ '/' | relative_url }}">主页</a></li>
-    <li><a href="{{ '/about/' | relative_url }}">关于我</a></li>
-    <li><a href="{{ '/cv/' | relative_url }}">简历</a></li>
-    <li><a href="{{ '/writing/' | relative_url }}">写作</a></li>
+<!-- Enhanced navbar with modern styling -->
+<nav class="custom-navbar">
+  <ul style="list-style: none; display: flex; gap: 1em; padding: 0; margin: 0;">
+    <li><a href="{{ '/' | relative_url }}" class="nav-link">🏠 主页</a></li>
+    <li><a href="{{ '/about/' | relative_url }}" class="nav-link">👤 关于我</a></li>
+    <li><a href="{{ '/cv/' | relative_url }}" class="nav-link">📄 简历</a></li>
+    <li><a href="{{ '/writing/' | relative_url }}" class="nav-link">✍️ 写作</a></li>
   </ul>
 </nav>
+
+<style>
+.custom-navbar .nav-link {
+  color: white !important;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-navbar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .custom-navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .custom-navbar .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin: 0.25rem;
+  }
+}
+</style>

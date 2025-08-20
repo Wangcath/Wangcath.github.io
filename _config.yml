@@ -1,28 +1,45 @@
-title: "Wang Yunge"
+title: "Wang Yunge | 王云戈"
 email: "231098096@smail.nju.edu.cn"
 description: >-
-  个人主页与写作空间
+  王云戈的个人主页 - 南京大学学生，热爱学习与写作，在这里分享知识、思考和生活感悟 ✨
 baseurl: "" # GitHub Pages 项目级建议空字符串
 url: "https://wangcath.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes"
+# SEO 优化
+logo: "/assets/images/avatar.jpg"
+social:
+  name: Wang Yunge
+  links:
+    - "https://github.com/Wangcath"
 
+# 主题配置
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# 插件配置
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
+# 导航配置
 navigation:
-  - title: "About"
+  - title: "主页"
+    url: /
+  - title: "关于我"
     url: /about/
-  - title: "CV"
+  - title: "简历"
     url: /cv/
-  - title: "Writing"
+  - title: "文章"
     url: /writing/
 
+# 作者信息
 author:
-  name: "Wang Yunge"
-  avatar: "/assets/images/avatar.jpg" # 头像（可自行替换图片）
-  bio: "欢迎来到我的个人主页 🎉"
-  location: "Nanjing University"
+  name: "王云戈"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "南京大学学生 🎓<br>热爱学习与思考 💡<br>欢迎来到我的数字世界 🌟"
+  location: "南京，中国"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
@@ -30,8 +47,13 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:231098096@smail.nju.edu.cn"
+    - label: "网站"
+      icon: "fas fa-globe"
+      url: "https://wangcath.github.io"
 
+# 页面默认设置
 defaults:
+  # 文章默认设置
   - scope:
       path: ""
       type: "posts"
@@ -41,4 +63,49 @@ defaults:
       read_time: true
       comments: false
       share: true
+      related: true
+      show_date: true
+      toc: true
+      toc_label: "目录"
+      toc_icon: "cog"
+  # 页面默认设置
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+# 站点设置
+timezone: "Asia/Shanghai"
+locale: "zh-CN"
+date_format: "%Y-%m-%d"
+
+# 评论设置（可选）
+comments:
+  provider: false # 目前关闭评论
+
+# 搜索设置
+search: true
+search_full_content: true
+
+# 分类和标签归档
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# 阅读时间计算
+words_per_minute: 200
+
+# 文章摘录设置
+excerpt_separator: "<!-- more -->"
+
+# 压缩HTML（生产环境）
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
