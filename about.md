@@ -16,16 +16,6 @@ toc_icon: "cog"
 你好！我是**王芸阁**，南京大学经济学拔尖计划2023级本科生。  
 目前主要关注**发展经济学、环境经济学、劳动经济学**等领域，也对**社会网络、经济史与心理学**有着持续的兴趣。很高兴在这里与你相遇！
 
-<div style="background: linear-gradient(135deg, #667eea20, #764ba220); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
-  <h3 style="color: #667eea; margin-bottom: 1rem;">🎯 我的特点</h3>
-  <ul style="list-style: none; padding-left: 0;">
-    <li style="margin-bottom: 0.75rem;">📚 <strong>学术驱动</strong>：对研究问题保持好奇，尤其关注经济与社会的交叉议题</li>
-    <li style="margin-bottom: 0.75rem;">💡 <strong>批判思维</strong>：喜欢追问假设背后的逻辑与现实意义</li>
-    <li style="margin-bottom: 0.75rem;">🌱 <strong>持续探索</strong>：既扎根于专业学习，也不断扩展到心理学、历史等相关领域</li>
-    <li style="margin-bottom: 0.75rem;">🤝 <strong>分享与交流</strong>：相信知识的价值在于沟通与传播</li>
-  </ul>
-</div>
-
 ## 🎓 教育背景
 
 <div style="background: white; border-left: 4px solid #667eea; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
