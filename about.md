@@ -30,28 +30,20 @@ toc_icon: "cog"
   <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 12px;">
     <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌍</div>
     <h4>发展经济学</h4>
-    <p style="font-size: 0.9rem;">关注低工资国家的产业与环境问题，思考全球化与不平等</p>
+    <p style="font-size: 0.9rem;">低工资国家的产业与环境问题，全球化与不平等</p>
   </div>
   <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, #f093fb, #f5576c); color: white; border-radius: 12px;">
     <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌱</div>
     <h4>环境与去增长</h4>
-    <p style="font-size: 0.9rem;">探索绿色转型、供应链环境压力与去增长的可能性</p>
+    <p style="font-size: 0.9rem;">绿色转型、供应链环境压力与去增长的可能性</p>
   </div>
   <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; border-radius: 12px;">
     <div style="font-size: 2rem; margin-bottom: 0.5rem;">👥</div>
     <h4>劳动与社会</h4>
-    <p style="font-size: 0.9rem;">关注平台经济、算法管理与劳动非标准化问题</p>
+    <p style="font-size: 0.9rem;">平台经济、算法管理与劳动非标准化问题</p>
   </div>
 </div>
 
-## 🌟 这个网站
-
-这个个人网站是我用 **Jekyll** 搭建的数字空间，在这里我会：
-
-- 📝 **研究与写作**：分享学习笔记、读书感想与研究思考  
-- 🔍 **资源整理**：收集并分享对我有启发的学术与数据资源  
-- 🤝 **思想交流**：与更多朋友在学术与生活上展开对话  
-- 📈 **记录成长**：见证自己在学术与人生道路上的积累与转变  
 
 ## 📬 联系方式
 
