@@ -1,7 +1,7 @@
-title: "Wang Yunge | 王云戈"
+title: "Wang Yunge | 王芸阁"
 email: "231098096@smail.nju.edu.cn"
 description: >-
-  王云戈的个人主页 - 南京大学学生，热爱学习与写作，在这里分享知识、思考和生活感悟 ✨
+  王芸阁的个人主页 - 尝试在这里分享
 baseurl: "" # GitHub Pages 项目级建议空字符串
 url: "https://wangcath.github.io"
 
@@ -36,9 +36,9 @@ navigation:
 
 # 作者信息
 author:
-  name: "王云戈"
+  name: "王芸阁"
   avatar: "/assets/images/avatar.jpg"
-  bio: "南京大学学生 🎓<br>热爱学习与思考 💡<br>欢迎来到我的数字世界 🌟"
+  bio: "行到水穷处，坐看云起时 💡<br>欢迎来到我的数字自留地 🌟"
   location: "南京，中国"
   links:
     - label: "GitHub"
@@ -108,4 +108,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
