@@ -14,7 +14,7 @@ social:
 
 # 主题配置
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "mint"
 
 # 插件配置
 plugins:
@@ -108,5 +108,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
