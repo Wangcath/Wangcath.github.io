@@ -29,8 +29,8 @@ navigation:
     url: /
   - title: "关于我"
     url: /about/
-  - title: "简历"
-    url: /cv/
+  - title: "课程"
+    url: /courses/
   - title: "文章"
     url: /writing/
 
