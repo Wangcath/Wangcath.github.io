@@ -6,15 +6,15 @@ baseurl: "" # GitHub Pages 项目级建议空字符串
 url: "https://wangcath.github.io"
 
 # SEO 优化
-logo: "/assets/images/logo.svg"
+logo: "/assets/images/avatar.jpg"
 social:
   name: Wang Yunge
   links:
     - "https://github.com/Wangcath"
 
-# 主题配置 - 注释掉 remote_theme 因为我们使用了自定义布局
-# remote_theme: "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin: "sunrise"
+# 主题配置
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "sunrise"
 
 # 插件配置
 plugins:
@@ -29,8 +29,8 @@ navigation:
     url: /
   - title: "关于我"
     url: /about/
-  - title: "课程"
-    url: /courses/
+  - title: "简历"
+    url: /cv/
   - title: "文章"
     url: /writing/
 
