@@ -6,7 +6,7 @@ baseurl: "" # GitHub Pages 项目级建议空字符串
 url: "https://wangcath.github.io"
 
 # SEO 优化
-logo: "/assets/images/avatar.jpg"
+logo: "/assets/images/logo.svg"
 social:
   name: Wang Yunge
   links:
