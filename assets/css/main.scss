@@ -86,6 +86,44 @@ html {
   margin-bottom: 0.2em;
 }
 
+/* Site logo styling */
+.site-logo {
+  height: 60px !important;
+  width: 60px !important;
+  margin-right: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(51, 92, 67, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.site-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(51, 92, 67, 0.3);
+}
+
+/* Adjust masthead title container to accommodate logo */
+.masthead__inner-wrap .site-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+  .site-logo {
+    height: 45px !important;
+    width: 45px !important;
+    margin-right: 0.75rem;
+  }
+  
+  .masthead .site-title {
+    font-size: 1.8rem;
+  }
+}
+
 /* Enhanced navigation */
 .nav, .site-nav {
   background: var(--white);
