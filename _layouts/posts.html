@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="page__hero">
+  {% if page.title %}<h1 class="page__title">{{ page.title }}</h1>{% endif %}
+  {% if page.excerpt %}<p class="page__meta">{{ page.excerpt }}</p>{% endif %}
+</div>
+
+{{ content }}
+
+<section class="posts">
+  {% for post in site.posts %}
+    <article class="archive-card">
+      <div class="archive-card-content">
+        <h2 class="archive-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <div class="archive-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          {% if post.author %}by {{ post.author }}{% endif %}
+        </div>
+        {% if post.excerpt %}
+          <div class="archive-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</div>
+        {% endif %}
+        <div class="archive-tags">
+          {% for tag in post.tags %}
+            <span class="archive-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="archive-card-footer">
+        <a href="{{ post.url | relative_url }}" class="read-more">阅读更多 →</a>
+      </div>
+    </article>
+  {% endfor %}
+</section>

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="page__hero">
+  {% if page.title %}<h1 class="page__title">{{ page.title }}</h1>{% endif %}
+  {% if page.excerpt %}<p class="page__meta">{{ page.excerpt }}</p>{% endif %}
+</div>
+
+<article>
+  {{ content }}
+</article>
+
+{% if page.author_profile %}
+<aside class="sidebar">
+  <div class="author__avatar">
+    {% if site.author.avatar %}
+      <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="author__avatar">
+    {% endif %}
+  </div>
+  <div class="author__content">
+    <h3 class="author__name">{{ site.author.name }}</h3>
+    <p class="author__bio">{{ site.author.bio }}</p>
+    {% if site.author.location %}
+      <p class="author__location">{{ site.author.location }}</p>
+    {% endif %}
+  </div>
+</aside>
+{% endif %}
