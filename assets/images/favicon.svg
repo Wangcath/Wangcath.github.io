@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Book 1 (bottom, largest) - Blue -->
+  <rect x="20" y="65" width="60" height="12" fill="#3498db" rx="2"/>
+  <rect x="22" y="67" width="2" height="8" fill="#2980b9"/>
+  
+  <!-- Book 2 (middle) - Green -->  
+  <rect x="25" y="50" width="50" height="12" fill="#2ecc71" rx="2"/>
+  <rect x="27" y="52" width="2" height="8" fill="#27ae60"/>
+  
+  <!-- Book 3 (top) - Orange -->
+  <rect x="30" y="35" width="40" height="12" fill="#f39c12" rx="2"/>
+  <rect x="32" y="37" width="2" height="8" fill="#e67e22"/>
+  
+  <!-- Simple page indicators -->
+  <rect x="22" y="69" width="54" height="1" fill="#ffffff" opacity="0.4"/>
+  <rect x="27" y="54" width="44" height="1" fill="#ffffff" opacity="0.4"/>
+  <rect x="32" y="39" width="34" height="1" fill="#ffffff" opacity="0.4"/>
+</svg>
