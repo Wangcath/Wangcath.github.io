@@ -13,8 +13,8 @@ social:
     - "https://github.com/Wangcath"
 
 # 主题配置 - 注释掉 remote_theme 因为我们使用了自定义布局
-# remote_theme: "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin: "sunrise"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "sunrise"
 
 # 插件配置
 plugins:
@@ -108,6 +108,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
